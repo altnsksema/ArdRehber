@@ -15,7 +15,7 @@ namespace ArdRehber.Data
         public DbSet<Title> Titles { get; set; }
         public DbSet<TitleDepartment> TitleDepartments { get; set; }
 
-        //dhdhdhdhhg
+        
 
 
 
