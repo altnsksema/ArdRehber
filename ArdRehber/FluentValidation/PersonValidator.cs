@@ -15,7 +15,7 @@ namespace ArdRehber.FluentValidation
             RuleFor(x => x.DepartmentId).NotEmpty().WithMessage("Departman Alanı Zorunludur");
             RuleFor(x => x.Name).MaximumLength(50).WithMessage("Lütfen Ad alanına 50 karakterden fazla değer girişi yapmayın.");
             RuleFor(x => x.SurName).MaximumLength(50).WithMessage("Lütfen Soyad alanına 50 karakterden fazla değer girişi yapmayın.");
-            // RuleFor(x => x.PhoneNumber).MinimumLength(3).WithMessage("Lütfen en az 1 karakter giriniz ");
+            //RuleFor(x => x.PhoneNumber).MinimumLength(3).WithMessage("Lütfen en az 1 karakter giriniz ");
         }
     }
 }
